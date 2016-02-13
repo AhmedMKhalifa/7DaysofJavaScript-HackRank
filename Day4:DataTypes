@@ -1,0 +1,17 @@
+var my_num = 4;
+var my_bool = true;
+var my_str = "hi there";
+
+
+
+
+The latest ECMAScript standard defines seven data types:
+► Six data types that are primitive:
+
+Number
+Boolean
+String
+Symbol (new in ECMAScript 6)
+Null
+Undefined
+► and an Object
