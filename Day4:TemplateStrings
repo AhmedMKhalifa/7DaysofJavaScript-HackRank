@@ -1,0 +1,8 @@
+var my_template_string = `My name is ${my_name}.
+                          My id is ${my_id}.
+                          My address is ${my_address}.`;
+                          
+                          
+                          
+//Template strings are string literals allowing embedded expressions. 
+//We can use multi-line strings and string interpolation features with them.
