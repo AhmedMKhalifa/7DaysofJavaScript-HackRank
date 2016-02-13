@@ -1,0 +1,24 @@
+var str = "";
+for(str of my_array)
+{
+    if(str == str.split('').reverse().join(''))
+    {
+        console.log(str);
+    }
+}
+
+
+
+
+
+The for...of statement creates a loop iterating over iterable objects like arrays, maps, and argument objects. 
+It invokes a custom iteration hook with statements to be executed for the value of each distinct property.
+
+var employee = ['001', '002', '003', '004', '005', '006', '007'];
+for(let i in employee){
+    console.log(i);                      // 0123456
+}
+console.log();
+for(let i of employee){
+    console.log(i);                     //001 002 003 004 005 006 007
+}
